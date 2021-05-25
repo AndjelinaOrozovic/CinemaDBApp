@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvUgovori.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="IdAdresa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IdAdresa.HeaderText" xml:space="preserve">
+    <value>Identifikator</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IdAdresa.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="IdAdresa.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="PocetakRadnogOdnosa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PocetakRadnogOdnosa.HeaderText" xml:space="preserve">
+    <value>Početak radnog odnosa</value>
+  </data>
+  <data name="PocetakRadnogOdnosa.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="PrekidUgovora.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PrekidUgovora.HeaderText" xml:space="preserve">
+    <value>Prekid ugovora</value>
+  </data>
+  <data name="PrekidUgovora.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="IdMenadzera.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IdMenadzera.HeaderText" xml:space="preserve">
+    <value>Identifikator menadžera</value>
+  </data>
+  <data name="IdMenadzera.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="IdZaposlenog.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IdZaposlenog.HeaderText" xml:space="preserve">
+    <value>Identifikator zaposlenog</value>
+  </data>
+  <data name="IdZaposlenog.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvUgovori.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 58</value>
+  </data>
+  <data name="dgvUgovori.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgvUgovori.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvUgovori.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 300</value>
+  </data>
+  <data name="dgvUgovori.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvUgovori.Name" xml:space="preserve">
+    <value>dgvUgovori</value>
+  </data>
+  <data name="&gt;&gt;dgvUgovori.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUgovori.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvUgovori.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 29</value>
+  </data>
+  <data name="tbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 22</value>
+  </data>
+  <data name="tbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Name" xml:space="preserve">
+    <value>tbFilter</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbNewUgovor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lblMenadzer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMenadzer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 109</value>
+  </data>
+  <data name="lblMenadzer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="lblMenadzer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMenadzer.Text" xml:space="preserve">
+    <value>Menadžer:</value>
+  </data>
+  <data name="&gt;&gt;lblMenadzer.Name" xml:space="preserve">
+    <value>lblMenadzer</value>
+  </data>
+  <data name="&gt;&gt;lblMenadzer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMenadzer.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;lblMenadzer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbBoxZaposleni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 48</value>
+  </data>
+  <data name="cmbBoxZaposleni.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cmbBoxZaposleni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 24</value>
+  </data>
+  <data name="cmbBoxZaposleni.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxZaposleni.Name" xml:space="preserve">
+    <value>cmbBoxZaposleni</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxZaposleni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxZaposleni.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxZaposleni.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dateTimePickerIstekUgovora.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd hh:mm</value>
+  </data>
+  <data name="dateTimePickerIstekUgovora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 105</value>
+  </data>
+  <data name="dateTimePickerIstekUgovora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="dateTimePickerIstekUgovora.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerIstekUgovora.Name" xml:space="preserve">
+    <value>dateTimePickerIstekUgovora</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerIstekUgovora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerIstekUgovora.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerIstekUgovora.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dateTimePickerPocetakRadnogOdnosa.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd hh:mm</value>
+  </data>
+  <data name="dateTimePickerPocetakRadnogOdnosa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 50</value>
+  </data>
+  <data name="dateTimePickerPocetakRadnogOdnosa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="dateTimePickerPocetakRadnogOdnosa.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerPocetakRadnogOdnosa.Name" xml:space="preserve">
+    <value>dateTimePickerPocetakRadnogOdnosa</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerPocetakRadnogOdnosa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerPocetakRadnogOdnosa.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerPocetakRadnogOdnosa.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOcisti.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 143</value>
+  </data>
+  <data name="btnOcisti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnOcisti.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOcisti.Text" xml:space="preserve">
+    <value>Očisti</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Name" xml:space="preserve">
+    <value>btnOcisti</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnUredi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 143</value>
+  </data>
+  <data name="btnUredi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnUredi.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnUredi.Text" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Name" xml:space="preserve">
+    <value>btnUredi</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnDodaj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 143</value>
+  </data>
+  <data name="btnDodaj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnDodaj.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDodaj.Text" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Name" xml:space="preserve">
+    <value>btnDodaj</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblZaposleni.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblZaposleni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 28</value>
+  </data>
+  <data name="lblZaposleni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="lblZaposleni.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblZaposleni.Text" xml:space="preserve">
+    <value>Zaposleni:</value>
+  </data>
+  <data name="&gt;&gt;lblZaposleni.Name" xml:space="preserve">
+    <value>lblZaposleni</value>
+  </data>
+  <data name="&gt;&gt;lblZaposleni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblZaposleni.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;lblZaposleni.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblIstekUgovora.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIstekUgovora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 84</value>
+  </data>
+  <data name="lblIstekUgovora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lblIstekUgovora.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblIstekUgovora.Text" xml:space="preserve">
+    <value>Istek ugovora:</value>
+  </data>
+  <data name="&gt;&gt;lblIstekUgovora.Name" xml:space="preserve">
+    <value>lblIstekUgovora</value>
+  </data>
+  <data name="&gt;&gt;lblIstekUgovora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIstekUgovora.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;lblIstekUgovora.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPocetakRadnogOdnosa.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPocetakRadnogOdnosa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblPocetakRadnogOdnosa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 17</value>
+  </data>
+  <data name="lblPocetakRadnogOdnosa.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPocetakRadnogOdnosa.Text" xml:space="preserve">
+    <value>Početak radnog odnosa:</value>
+  </data>
+  <data name="&gt;&gt;lblPocetakRadnogOdnosa.Name" xml:space="preserve">
+    <value>lblPocetakRadnogOdnosa</value>
+  </data>
+  <data name="&gt;&gt;lblPocetakRadnogOdnosa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPocetakRadnogOdnosa.Parent" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;lblPocetakRadnogOdnosa.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="gbNewUgovor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 366</value>
+  </data>
+  <data name="gbNewUgovor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gbNewUgovor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gbNewUgovor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 191</value>
+  </data>
+  <data name="gbNewUgovor.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbNewUgovor.Text" xml:space="preserve">
+    <value>Ugovor:</value>
+  </data>
+  <data name="&gt;&gt;gbNewUgovor.Name" xml:space="preserve">
+    <value>gbNewUgovor</value>
+  </data>
+  <data name="&gt;&gt;gbNewUgovor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNewUgovor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNewUgovor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>813, 554</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>766, 584</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ugovori</value>
+  </data>
+  <data name="&gt;&gt;IdAdresa.Name" xml:space="preserve">
+    <value>IdAdresa</value>
+  </data>
+  <data name="&gt;&gt;IdAdresa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PocetakRadnogOdnosa.Name" xml:space="preserve">
+    <value>PocetakRadnogOdnosa</value>
+  </data>
+  <data name="&gt;&gt;PocetakRadnogOdnosa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrekidUgovora.Name" xml:space="preserve">
+    <value>PrekidUgovora</value>
+  </data>
+  <data name="&gt;&gt;PrekidUgovora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IdMenadzera.Name" xml:space="preserve">
+    <value>IdMenadzera</value>
+  </data>
+  <data name="&gt;&gt;IdMenadzera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IdZaposlenog.Name" xml:space="preserve">
+    <value>IdZaposlenog</value>
+  </data>
+  <data name="&gt;&gt;IdZaposlenog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormUgovori</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

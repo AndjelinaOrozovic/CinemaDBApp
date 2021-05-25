@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbNewProjekcije.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnIzdajKartu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 55</value>
+  </data>
+  <data name="btnIzdajKartu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 187</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnIzdajKartu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnIzdajKartu.Text" xml:space="preserve">
+    <value>IZDAJ KARTU</value>
+  </data>
+  <data name="&gt;&gt;btnIzdajKartu.Name" xml:space="preserve">
+    <value>btnIzdajKartu</value>
+  </data>
+  <data name="&gt;&gt;btnIzdajKartu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIzdajKartu.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;btnIzdajKartu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dateTimePickerVrijemePrikazivanja.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd hh:mm</value>
+  </data>
+  <data name="dateTimePickerVrijemePrikazivanja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 53</value>
+  </data>
+  <data name="dateTimePickerVrijemePrikazivanja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="dateTimePickerVrijemePrikazivanja.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerVrijemePrikazivanja.Name" xml:space="preserve">
+    <value>dateTimePickerVrijemePrikazivanja</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerVrijemePrikazivanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerVrijemePrikazivanja.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerVrijemePrikazivanja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOcisti.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 215</value>
+  </data>
+  <data name="btnOcisti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnOcisti.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnOcisti.Text" xml:space="preserve">
+    <value>Očisti</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Name" xml:space="preserve">
+    <value>btnOcisti</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;btnOcisti.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbBoxFilmovi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 112</value>
+  </data>
+  <data name="cmbBoxFilmovi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cmbBoxFilmovi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 24</value>
+  </data>
+  <data name="cmbBoxFilmovi.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxFilmovi.Name" xml:space="preserve">
+    <value>cmbBoxFilmovi</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxFilmovi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxFilmovi.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxFilmovi.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbBoxSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 55</value>
+  </data>
+  <data name="cmbBoxSale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cmbBoxSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 24</value>
+  </data>
+  <data name="cmbBoxSale.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxSale.Name" xml:space="preserve">
+    <value>cmbBoxSale</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxSale.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;cmbBoxSale.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFilm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFilm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 91</value>
+  </data>
+  <data name="lblFilm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="lblFilm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblFilm.Text" xml:space="preserve">
+    <value>Film:</value>
+  </data>
+  <data name="&gt;&gt;lblFilm.Name" xml:space="preserve">
+    <value>lblFilm</value>
+  </data>
+  <data name="&gt;&gt;lblFilm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFilm.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;lblFilm.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSalaPrikazivanja.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSalaPrikazivanja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 35</value>
+  </data>
+  <data name="lblSalaPrikazivanja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="lblSalaPrikazivanja.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblSalaPrikazivanja.Text" xml:space="preserve">
+    <value>Sala prikazivanja:</value>
+  </data>
+  <data name="&gt;&gt;lblSalaPrikazivanja.Name" xml:space="preserve">
+    <value>lblSalaPrikazivanja</value>
+  </data>
+  <data name="&gt;&gt;lblSalaPrikazivanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSalaPrikazivanja.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;lblSalaPrikazivanja.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnUredi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 215</value>
+  </data>
+  <data name="btnUredi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnUredi.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnUredi.Text" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Name" xml:space="preserve">
+    <value>btnUredi</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;btnUredi.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnDodaj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 215</value>
+  </data>
+  <data name="btnDodaj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 27</value>
+  </data>
+  <data name="btnDodaj.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnDodaj.Text" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Name" xml:space="preserve">
+    <value>btnDodaj</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;btnDodaj.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCijena.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCijena.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 147</value>
+  </data>
+  <data name="lblCijena.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="lblCijena.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblCijena.Text" xml:space="preserve">
+    <value>Cijena(KM):</value>
+  </data>
+  <data name="&gt;&gt;lblCijena.Name" xml:space="preserve">
+    <value>lblCijena</value>
+  </data>
+  <data name="&gt;&gt;lblCijena.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCijena.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;lblCijena.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbCijena.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 168</value>
+  </data>
+  <data name="tbCijena.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbCijena.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="tbCijena.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbCijena.Name" xml:space="preserve">
+    <value>tbCijena</value>
+  </data>
+  <data name="&gt;&gt;tbCijena.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCijena.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;tbCijena.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblDatumIVrijemePrikazivanja.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDatumIVrijemePrikazivanja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="lblDatumIVrijemePrikazivanja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 17</value>
+  </data>
+  <data name="lblDatumIVrijemePrikazivanja.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDatumIVrijemePrikazivanja.Text" xml:space="preserve">
+    <value>Datum i vrijeme prikazivanja:</value>
+  </data>
+  <data name="&gt;&gt;lblDatumIVrijemePrikazivanja.Name" xml:space="preserve">
+    <value>lblDatumIVrijemePrikazivanja</value>
+  </data>
+  <data name="&gt;&gt;lblDatumIVrijemePrikazivanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDatumIVrijemePrikazivanja.Parent" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;lblDatumIVrijemePrikazivanja.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gbNewProjekcije.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 303</value>
+  </data>
+  <data name="gbNewProjekcije.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gbNewProjekcije.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gbNewProjekcije.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 284</value>
+  </data>
+  <data name="gbNewProjekcije.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbNewProjekcije.Text" xml:space="preserve">
+    <value>Projekcija:</value>
+  </data>
+  <data name="&gt;&gt;gbNewProjekcije.Name" xml:space="preserve">
+    <value>gbNewProjekcije</value>
+  </data>
+  <data name="&gt;&gt;gbNewProjekcije.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNewProjekcije.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNewProjekcije.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvProjekcije.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="IdentifikatorSale.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IdentifikatorSale.HeaderText" xml:space="preserve">
+    <value>Identifikator sale</value>
+  </data>
+  <data name="IdentifikatorSale.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="IdentifikatorSale.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="NazivSale.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NazivSale.HeaderText" xml:space="preserve">
+    <value>Naziv sale</value>
+  </data>
+  <data name="NazivSale.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="DatumIVrijemePrikazivanja.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="DatumIVrijemePrikazivanja.HeaderText" xml:space="preserve">
+    <value>Datum i vrijeme prikazivanja</value>
+  </data>
+  <data name="DatumIVrijemePrikazivanja.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="IdentifikatorFilma.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="IdentifikatorFilma.HeaderText" xml:space="preserve">
+    <value>Identifikator filma</value>
+  </data>
+  <data name="IdentifikatorFilma.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="IdentifikatorFilma.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="NazivFilma.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NazivFilma.HeaderText" xml:space="preserve">
+    <value>Naziv filma</value>
+  </data>
+  <data name="NazivFilma.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="Cijena.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Cijena.HeaderText" xml:space="preserve">
+    <value>Cijena</value>
+  </data>
+  <data name="Cijena.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvProjekcije.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
+  </data>
+  <data name="dgvProjekcije.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgvProjekcije.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvProjekcije.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 238</value>
+  </data>
+  <data name="dgvProjekcije.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvProjekcije.Name" xml:space="preserve">
+    <value>dgvProjekcije</value>
+  </data>
+  <data name="&gt;&gt;dgvProjekcije.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvProjekcije.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvProjekcije.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 29</value>
+  </data>
+  <data name="tbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>958, 22</value>
+  </data>
+  <data name="tbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Name" xml:space="preserve">
+    <value>tbFilter</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="lblFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="lblFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Name" xml:space="preserve">
+    <value>lblFilter</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 600</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 647</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projekcije</value>
+  </data>
+  <data name="&gt;&gt;IdentifikatorSale.Name" xml:space="preserve">
+    <value>IdentifikatorSale</value>
+  </data>
+  <data name="&gt;&gt;IdentifikatorSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NazivSale.Name" xml:space="preserve">
+    <value>NazivSale</value>
+  </data>
+  <data name="&gt;&gt;NazivSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatumIVrijemePrikazivanja.Name" xml:space="preserve">
+    <value>DatumIVrijemePrikazivanja</value>
+  </data>
+  <data name="&gt;&gt;DatumIVrijemePrikazivanja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IdentifikatorFilma.Name" xml:space="preserve">
+    <value>IdentifikatorFilma</value>
+  </data>
+  <data name="&gt;&gt;IdentifikatorFilma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NazivFilma.Name" xml:space="preserve">
+    <value>NazivFilma</value>
+  </data>
+  <data name="&gt;&gt;NazivFilma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cijena.Name" xml:space="preserve">
+    <value>Cijena</value>
+  </data>
+  <data name="&gt;&gt;Cijena.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormProjekcije</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

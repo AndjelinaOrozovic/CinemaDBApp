@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29398908-1D47-47EE-915B-9832E425C750}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CinemaDBApp</RootNamespace>
+    <AssemblyName>CinemaDBApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>movie.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Angazman.cs" />
+    <Compile Include="Model\Film.cs" />
+    <Compile Include="Model\FilmInfo.cs" />
+    <Compile Include="Model\FilmZanr.cs" />
+    <Compile Include="Model\Karta.cs" />
+    <Compile Include="Model\Kategorija.cs" />
+    <Compile Include="Model\KinoInfo.cs" />
+    <Compile Include="Model\Lice.cs" />
+    <Compile Include="Model\LiceInfo.cs" />
+    <Compile Include="Model\Menadzer.cs" />
+    <Compile Include="Model\Proizvod.cs" />
+    <Compile Include="Model\Projekcija.cs" />
+    <Compile Include="Model\Recepcioner.cs" />
+    <Compile Include="Model\Red.cs" />
+    <Compile Include="Model\Sala.cs" />
+    <Compile Include="Model\Sjedistecs.cs" />
+    <Compile Include="Model\Ugovor.cs" />
+    <Compile Include="Model\VrstaAngazmana.cs" />
+    <Compile Include="Model\Zanr.cs" />
+    <Compile Include="MySQLHelper\MySQLAdrese.cs" />
+    <Compile Include="MySQLHelper\MySQLAngazman.cs" />
+    <Compile Include="MySQLHelper\MySQLFilm.cs" />
+    <Compile Include="MySQLHelper\MySQLFilmZanr.cs" />
+    <Compile Include="MySQLHelper\MySQLKarta.cs" />
+    <Compile Include="MySQLHelper\MySQLKategorije.cs" />
+    <Compile Include="MySQLHelper\MySQLKina.cs" />
+    <Compile Include="MySQLHelper\MySQLKinoInfo.cs" />
+    <Compile Include="MySQLHelper\MySQLKorisnickiNalogMenadzer.cs" />
+    <Compile Include="MySQLHelper\MySQLKorisnickiNalogRecepcioner.cs" />
+    <Compile Include="Exceptions\DataAccessException.cs" />
+    <Compile Include="MySQLHelper\MySQLLice.cs" />
+    <Compile Include="MySQLHelper\MySQLMenadzer.cs" />
+    <Compile Include="MySQLHelper\MySQLProizvodi.cs" />
+    <Compile Include="MySQLHelper\MySQLProjekcija.cs" />
+    <Compile Include="MySQLHelper\MySQLRecepcioner.cs" />
+    <Compile Include="MySQLHelper\MySQLRed.cs" />
+    <Compile Include="MySQLHelper\MySQLSale.cs" />
+    <Compile Include="MySQLHelper\MySQLSjediste.cs" />
+    <Compile Include="MySQLHelper\MySQLUgovori.cs" />
+    <Compile Include="MySQLHelper\MySQLVrstaAngazmana.cs" />
+    <Compile Include="MySQLHelper\MySQLZanr.cs" />
+    <Compile Include="MySQLHelper\MySQLZaposleni.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource.en.Designer.cs">
+      <DependentUpon>Resource.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Resource.sr.Designer.cs">
+      <DependentUpon>Resource.sr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormAdrese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormAdrese.Designer.cs">
+      <DependentUpon>FormAdrese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormUgovori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormUgovori.Designer.cs">
+      <DependentUpon>FormUgovori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormZaposleni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\FormZaposleni.Designer.cs">
+      <DependentUpon>FormZaposleni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\MainWindowMenadzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewMenadzer\MainWindowMenadzer.Designer.cs">
+      <DependentUpon>MainWindowMenadzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormFilmovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormFilmovi.Designer.cs">
+      <DependentUpon>FormFilmovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormKarta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormKarta.Designer.cs">
+      <DependentUpon>FormKarta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormKartaIzvjestaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormKartaIzvjestaj.Designer.cs">
+      <DependentUpon>FormKartaIzvjestaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormLica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormLica.Designer.cs">
+      <DependentUpon>FormLica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormProizvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormProizvodi.Designer.cs">
+      <DependentUpon>FormProizvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormProjekcije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormProjekcije.Designer.cs">
+      <DependentUpon>FormProjekcije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormZanrovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\FormZanrovi.Designer.cs">
+      <DependentUpon>FormZanrovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\MainWindowRecepcioner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewRecepcioner\MainWindowRecepcioner.Designer.cs">
+      <DependentUpon>MainWindowRecepcioner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Adresa.cs" />
+    <Compile Include="Model\Kino.cs" />
+    <Compile Include="Model\KorisnickiNalog.cs" />
+    <Compile Include="Model\Zaposleni.cs" />
+    <Compile Include="View\LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Resources\Resource.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.sr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.sr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LogInForm.aa.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LogInForm.en.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LogInForm.sr.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormAdrese.en.resx">
+      <DependentUpon>FormAdrese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormAdrese.resx">
+      <DependentUpon>FormAdrese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormUgovori.en.resx">
+      <DependentUpon>FormUgovori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormUgovori.resx">
+      <DependentUpon>FormUgovori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormZaposleni.en.resx">
+      <DependentUpon>FormZaposleni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormZaposleni.resx">
+      <DependentUpon>FormZaposleni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\FormZaposleni.sr.resx">
+      <DependentUpon>FormZaposleni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\MainWindowMenadzer.en.resx">
+      <DependentUpon>MainWindowMenadzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\MainWindowMenadzer.resx">
+      <DependentUpon>MainWindowMenadzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewMenadzer\MainWindowMenadzer.sr.resx">
+      <DependentUpon>MainWindowMenadzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormFilmovi.en.resx">
+      <DependentUpon>FormFilmovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormFilmovi.resx">
+      <DependentUpon>FormFilmovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormKarta.en.resx">
+      <DependentUpon>FormKarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormKarta.resx">
+      <DependentUpon>FormKarta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormKartaIzvjestaj.en.resx">
+      <DependentUpon>FormKartaIzvjestaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormKartaIzvjestaj.resx">
+      <DependentUpon>FormKartaIzvjestaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormKartaIzvjestaj.sr.resx">
+      <DependentUpon>FormKartaIzvjestaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormLica.en.resx">
+      <DependentUpon>FormLica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormLica.resx">
+      <DependentUpon>FormLica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormLica.sr.resx">
+      <DependentUpon>FormLica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProizvodi.en.resx">
+      <DependentUpon>FormProizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProizvodi.resx">
+      <DependentUpon>FormProizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProizvodi.sr.resx">
+      <DependentUpon>FormProizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProjekcije.en.resx">
+      <DependentUpon>FormProjekcije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProjekcije.resx">
+      <DependentUpon>FormProjekcije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormProjekcije.sr.resx">
+      <DependentUpon>FormProjekcije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormZanrovi.en.resx">
+      <DependentUpon>FormZanrovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\FormZanrovi.resx">
+      <DependentUpon>FormZanrovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\MainWindowRecepcioner.en.resx">
+      <DependentUpon>MainWindowRecepcioner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\MainWindowRecepcioner.resx">
+      <DependentUpon>MainWindowRecepcioner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewRecepcioner\MainWindowRecepcioner.sr.resx">
+      <DependentUpon>MainWindowRecepcioner.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00-ELASTOFONT-STORE-READY_phone-call-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003_003_eye_watch_view_views-512-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_Add-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34-349693_circled-user-icon-transparent-background-username-icon-hd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52-520068_my-buid-the-british-university-in-dubai-rh-buid-ac-contract-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkin01-RoundedBlack-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_information_icon_178159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_circle2-512 %281%29.webp" />
+    <None Include="Resources\logout_circle2-512.webp" />
+    <None Include="Resources\o-theater-seats-facebook-e1457622472332-1200x900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-new-film-premiere-theater-poster-image_195512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small_paper_cup_drink_soda-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppng.com-the-boss-baby-png-transparent-image-imagens-do-poderoso-chefinho-402x542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video-Icon-PNG-Free-Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman_female_people_person_avatar_icon_131278.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie-category-genres-categories_8-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Movie Genres Documentary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-documentary-film-computer-icons-cinema-video-icon-5ad4fc023e44d7.1171977115239075862551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3-xxl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\british-flag-icon-13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serbia-flag-png-large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_25587499-stock-photo-flag-of-uk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-glassy-black-round-button-stock-illustration_csp50366284.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_bracket_icon_149439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="movie.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
