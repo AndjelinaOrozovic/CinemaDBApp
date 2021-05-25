@@ -1,0 +1,11 @@
+1. Podrška za dva tip korisničkih naloga:
+	* Nalog za recepcionera (Korisničko ime: nebojšaJ, Lozinka: lozinka4)
+	* Nalog za menadžera (Korisničko ime: anaM, Lozinka: lozinka1)
+
+2. Internacionalizacija:
+	* Srpski
+	* Engleski
+
+3. Korisničko uputstvo (PDF)
+
+4. Instalacija i uputstvo za instalaciju (PDF) 
